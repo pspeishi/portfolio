@@ -1,0 +1,64 @@
+.projects-page {
+    background-color: rgb(220, 232, 232);
+}
+
+.projects-page-title {
+    color: darkslategray;
+    text-align: center;
+    padding: 1rem 0rem 0rem 0rem;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 1rem 1rem;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid #FAF9F6;
+    justify-content: center;
+    box-shadow: lightgrey 0px 10px 30px -15px;
+}
+
+.project-card:hover {
+    background-color: darkslategray;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.project-card:hover h5 {
+    color: white;
+}
+
+.project-card:hover span {
+    background: white;
+    color: darkslategray;
+}
+
+.project-name {
+    font-family: Cambria;
+    color: darkslategray;
+    font-size: 20px;
+}
+
+.project-card > p {
+    font-family: Cambria;
+}
+
+.project-url {
+    background: darkslategray;
+    color: white;
+    vertical-align: middle;
+    justify-content: center;
+    border-radius: 4px;
+    display: inline-flex;
+    line-height: 1.5;
+    width: 100px;
+}

@@ -1,0 +1,9 @@
+.timeline-page-title {
+    color: darkslategrey;
+    text-align: center;
+    padding: 2rem 0rem 1rem 0rem;
+}
+
+.timeline-container {
+    background-color: rgb(220, 232, 232);
+}

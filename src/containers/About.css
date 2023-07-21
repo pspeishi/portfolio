@@ -1,0 +1,51 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-column {
+    margin-left: auto;
+    width: 50%;
+    margin-top: -350px;
+    text-align: justify;
+    margin-right: 5%;
+}
+
+.left-column {
+    float: left;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.left-column > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.right-column > h1 {
+    font-family: monospace;
+    color: darkslategray;
+    font-size: 40px;
+}
+
+.right-column > span {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 200%;
+}
+
+.location {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.socialMedia > span {
+    font-size: 18px;
+    font-family:monospace;
+    line-height: 200%;
+    font-weight: bold;
+}
