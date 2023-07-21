@@ -39,7 +39,7 @@ const projects = [
         projectDesc: "Front-end development project to develop a web application showcasing my portfolio.",
         tools: "React.js",
         skills: "Front-end development",
-        githubURL: "",
+        githubURL: "https://github.com/pspeishi/portfolio",
     },
 ]
 
